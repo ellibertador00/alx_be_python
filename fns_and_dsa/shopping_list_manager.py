@@ -1,7 +1,7 @@
 # shopping_list_manager.py
 
 def display_menu():
-    print("\nShopping List Manager")
+    print(f"Shopping List Manager")  # <-- Fixed to f-string
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
